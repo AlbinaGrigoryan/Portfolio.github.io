@@ -1,0 +1,42 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f1f1f1;
+    color: #111;
+    text-align: center;
+    padding: 20px 220px;
+    transition: all .3s ease-in-out !important;
+}
+
+/* Rules */
+input {
+    text-align: center;
+    padding: 2px;
+}
+input:focus {
+    outline: 0;
+}
+
+/* Main */
+table {
+    border-radius: 15px;
+}
+table, tr, th, td {
+    border: 1px solid black;
+    padding: 10px 35px;
+    margin: 10px 10px;
+    border-collapse: inherit;
+}
+#id {
+    padding: 4px 4px;
+}
+h3 {
+    padding: 20px 20px;
+}
+i {
+    padding: 0 10px;
+}

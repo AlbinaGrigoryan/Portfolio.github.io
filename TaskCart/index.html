@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Optional CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <title>Cart</title>
+</head>
+<body>
+     <h3><i class="zmdi zmdi-mall"></i>Shopping cart</h3>                
+     <table>
+        <tr>
+            <th id="id">#ID</th>
+            <th>Title</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Total Price</th>
+            <th>Delivery Price</th>
+            <th>Cart Price</th>
+        </tr>
+        <tr data-id="14">
+            <td id="id">1</td>
+            <td name="name" id="name">Jacket</td>
+            <td><input type="number" id="quantity" min="0" name="quantity" data-id="14"></td>
+            <td class="price">13000</td>
+            <td class="totalPrice"></td>
+            <td rowspan="4" class="deliveryPrice">1000</td>
+            <td rowspan="4" class="cartPrice"></td>
+        </tr>
+        <tr data-id="15">
+            <td id="id">2</td>
+            <td name="name" id="name">Hat</td>
+            <td><input type="number" id="quantity" min="0" name="quantity" data-id="15"></td>
+            <td class="price">6000</td>
+            <td class="totalPrice"></td>
+        </tr>
+        <tr data-id="16">
+            <td id="id">3</td>
+            <td name="name" id="name">Scarf</td>
+            <td><input type="number" id="quantity" min="0" name="quantity" data-id="16"></td>
+            <td class="price">2000</td>
+            <td class="totalPrice"></td>
+        </tr>
+        <tr data-id="17">
+            <td id="id">4</td>
+            <td name="name" id="name">Coat</td>
+            <td><input type="number" id="quantity" min="0" name="quantity" data-id="17"></td>
+            <td class="price">30000</td>
+            <td class="totalPrice"></td>
+        </tr>
+    </table>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>

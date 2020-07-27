@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>AJAX</title>
+        <link rel="stylesheet" href="css/ajax.css">
+    </head>
+    <body>
+        <div class="content">
+            <form class="user_reg">
+                <p>* - պարտադիր լրացման դաշտեր</p>
+                <p><input type="text" name="name" placeholder="Անուն"></p>
+                <p><input type="text" name="phone" placeholder="Հեռախոս *"></p>
+                <p>Նշեք ձեր սեռը</p>
+                <p>
+                    <label><input type="radio" name="gender" value="male" checked> Արական</label>
+                    <label><input type="radio" name="gender" value="female"> Իգական</label>
+                </p>
+                <p><input type="file" name="file" id="my_file">Ներբեռնեք ֆայլ</p>
+                <p>Նշեք ծննդյան տարեթիվը</p>
+                <p>
+                    <select name="birthdate">
+                        <option value="0">Տարեթիվ</option>
+                        <option value="1989">1989 թ.</option>
+                        <option value="1990">1990 թ.</option>
+                        <option value="X">X թ.</option>
+                        <option value="2001">2001 թ.</option>
+                    </select>
+                </p>
+                <p>
+                    <label><input type="checkbox" name="terms"> Համաձայն եմ կայքից օգտվելու պայմանների հետ</label>
+                </p>
+                <p class="messages"></p>
+                <p><button type="submit" id="but">Գրանցվել</button></p>
+            </form>
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/ajax.js"></script>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: darkolivegreen;
+    color: darkblue;
+    font-size: 56px;
+    text-align: center;
+    position: relative;
+}
+
+/* rules */
+input {
+    font-size: 26px;
+}
+input:focus {
+    outline: 0;
+}
+
+/* main */
+div#timer {
+    margin: 30px auto;
+    padding: 10px 10px;
+}

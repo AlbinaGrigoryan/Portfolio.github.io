@@ -1,0 +1,65 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    font: 16px/1.6 Verdana, sans-serif;
+    color: #111;
+    background-color: #f1f1f1;
+}
+
+/* Rules */
+table td p {
+    font-size: 12px;
+    padding: 5px 0;
+}
+span {
+    color: #30629A;
+}
+th {
+    padding: 10px;
+}
+img {
+    height: 30px;
+}
+th img {
+    position: absolute;
+    left: 10px;
+    top: 2px;
+}
+
+/* Main */
+table {
+    margin: 10px auto;
+}
+table th, td {
+    width: 200px;
+    padding: 5px 0;
+}
+table, th, td {
+    border: 1px solid lightgrey; 
+    border-collapse: collapse;
+    text-align: center;
+}
+table th:nth-of-type(3) {
+    position: relative;
+    border-top: 2px solid green;
+    border-right: 2px solid green;
+    border-left: 2px solid green;
+}
+table td:nth-of-type(3) {
+    border-right: 2px solid green;
+    border-left: 2px solid green;
+}
+table td.info {
+    border-bottom: 2px solid green;
+}
+table tr td a {
+    outline: 0;
+}
+table img[name=info] {
+    height: 15px;
+    opacity: 0.7;
+}

@@ -1,0 +1,42 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: #111;
+    background-color: #f1f1f1;
+}
+body, input, select, textarea, button {
+    font: 16px/1.6 Tahoma, sans-serif;
+}
+input, select, textarea, button {
+    padding: 10px 15px;
+}
+p {
+    margin-bottom: 10px;
+}
+
+
+/* rules */
+.color-danger {
+    color: #c61717;
+}
+.color-success {
+    color: #17c646;
+}
+
+
+/* Main */
+.content {
+    padding: 30px;
+}
+form.user_reg {
+    background-color: #fff;
+    padding: 15px;
+    width: 500px;
+}
+form.user_reg input:not([type=radio]):not([type=checkbox]) {
+    width: 100%;
+}

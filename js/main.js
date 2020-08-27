@@ -1,5 +1,4 @@
-$(function() {
-    
+$(function() {    
     // Send message
     $('form.personal').on('submit', function (e) {
         e.preventDefault();
@@ -239,14 +238,7 @@ $(function() {
             elemTop = elem.offset().top;
         // animate
         $('body, html').animate({ scrollTop: elemTop }, delay);
-    });
-    
-    
-    
-//	// hamburger
-//	$('.hamburger').on('click', function() {
-//		$(this).toggleClass('is-active');
-//	});   
+    });  
     
 	
 	// smoothScrolling

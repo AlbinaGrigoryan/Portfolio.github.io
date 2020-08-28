@@ -1,4 +1,7 @@
-$(function() {    
+$(function() {  
+    if(window.innerWidth < 569) {
+        $('.content .image').attr('src', './img/new_me.jpg').css('height', '20vh');
+    }
     // Send message
     $('form.personal').on('submit', function (e) {
         e.preventDefault();

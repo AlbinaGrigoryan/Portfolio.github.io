@@ -289,11 +289,7 @@ section#about .overlay .content .photo {
     text-align: center;
 }
 section#about .overlay .content .image {
-    display: block;
     height: 28vh;
-}
-section#about .overlay .content .image_new {
-    display: none;
 }
 section#about .overlay .content .descr a {
     color: #FFF97D;
@@ -517,12 +513,6 @@ footer#contact .overlay .w1, .w2{
 @media (max-width: 575px) {
     section#about .content h1{
         font-size: 8vw;
-    }
-    section#about .content .image {
-        display: none !important;
-    }
-    section#about .content .image_new {
-        display: block !important;
     }
 }
 @media (min-width: 576px) {
